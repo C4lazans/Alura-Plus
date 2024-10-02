@@ -362,6 +362,7 @@ margin: 0%;
             }
 
             .lista_rodape{
-                display: block;
+                display: flex;
+                flex-direction: column;
         }
         
