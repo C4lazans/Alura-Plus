@@ -334,7 +334,20 @@ margin: 0%;
         }
 
     .container {
-        grid-template-columns: 100%}
+        grid-template-columns: 100%
+        }
 
+    ..imagem_pc{
+        width: auto;
+        }
+    
+    .imagem_cel{
+        width: auto;
+        }
+    
+    .imagem_tv{
+        width: auto;
+        
+        }
         }
         
