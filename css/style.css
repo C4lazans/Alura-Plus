@@ -349,5 +349,10 @@ margin: 0%;
                 width: 50vh;
             }
 
+            .div_terciario{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
         }
         
