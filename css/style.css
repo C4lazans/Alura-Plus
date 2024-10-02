@@ -241,7 +241,7 @@ margin: 0%;
 }
 
 .imagem_tv{
-    
+    width: 33vh;
 
 }
 
@@ -253,7 +253,7 @@ margin: 0%;
 }
 
 .imagem_pc{
-    
+    width: 33vh;
 }
 
 .paragrafo_pc{
@@ -264,7 +264,7 @@ margin: 0%;
 }
 
 .imagem_cel{
-    
+    width: 33vh;
 }
 
 .paragrafo_cel{
@@ -353,6 +353,11 @@ margin: 0%;
                 display: flex;
                 align-items: center;
                 flex-direction: column;
+            }
+
+            .div_5{
+                flex-direction: column;
+
             }
         }
         
