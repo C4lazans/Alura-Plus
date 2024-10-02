@@ -22,7 +22,6 @@ body {
     font-family: var(--fonte-principal);
     font-size: 1rem;
     font-weight: 400;
-    height: 100vh;
 }
         .background {
             background-image: url(./imagens/Background.png);
@@ -34,7 +33,7 @@ body {
         }
 
 
-        .conteudo{ width: 90%;
+        .conteudo{ width: 100%;
 
 
         }
@@ -333,9 +332,18 @@ margin: 0%;
 
 @media (max-width: 500px) {
             
-            .body {
-                width: 90%;
-            }
+    .link-botao1 {
+        text-align: center;
+        background-color: var(--botoes);
+        border-radius: 8px;
+        border-color: var(--botoes);
+        font-size: 1rem;
+        padding: 1rem 4rem;
+        text-decoration: none;
+        color: var(--texto-principal);
+        display: flex;
+        margin-bottom: 1em;
+        }
 
         }
         
