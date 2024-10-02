@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+--texto-principal: #FFFFFF;
+--texto-secundario: #F9F9F9;
+--texto-terciario: #C0C0C0;
+--botoes: #167BF7;
+--cor-de-fundo: #00030C;
+--fonte-principal: 'Inter';
+--cor-de-ativo:#4498ff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+        .background {
+            background-image: url(./imagens/Background.png);
+            background-repeat: no-repeat;
+            background-size:contain;
+            align-items: center;
+            text-align: center;
+            width: 95%;
+        }
+
+
+        .conteudo{ width: 90%;
+
+
+        }
+        .link-botao1 {
+            text-align: center;
+            background-color: var(--botoes);
+            border-radius: 8px;
+            border-color: var(--botoes);
+            font-size: 1rem;
+            padding: 1rem 7rem;
+            text-decoration: none;
+            color: var(--texto-principal);
+            display: block;
+            margin-bottom: 1em;
+            }
+
+        
+        .link-botao2 {
+            background-color: transparent;
+            text-align: center;
+            border-style: groove;
+            border-radius: 8px;
+            border-width: 1px;
+            border-color: var(--texto-principal);
+            font-size: 1rem;
+            padding: 1rem 7rem;
+            text-decoration: none;
+            color: var(--texto-principal);
+            display: block;
+
+
+        }   
+        
+        .imagem {
+            margin: 1em 0 2em 0;
+            
+        }
+        
+        .container { 
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin: 0 6em;
+        }
+        
+        .texto-principal{
+            color: var(--texto-principal);
+            font-weight: 700;
+            font-size: 1.75rem;
+
+
+        }
+
+        .aviso {
+            text-align: center;
+            color: var(--texto-terciario);
+            font-size: 0.87rem;
+        }
+
+                    .descricao {
+                        align-items: center;
+                        
+                 }
+
+                 .secundario {
+                    align-items: center;
+                    margin: 0 10em;
+
+                 }
+             
+                 .imagem_sec { 
+                    width: 80%;
+                    background-size: contain;
+                    align-items: center;
+                    text-align: center;
+                  }
+
+                  .texto_descricao {
+                        text-align: start;
+                        color: var(--texto-principal);
+                        font-weight: 700;
+                        font-size: 3rem;
+                        margin-bottom: 0.1em;
+                  }
+
+                  .paragrafo_descricao{ 
+                        text-align: start;
+                        color: var(--texto-terciario);
+                        font-weight: 400;
+                        font-size: 1rem;
+                    }
+
+
+.terciario{ 
+    align-items: center;
+
+}   
+
+.div_terciario{
+    align-items: start
+
+}
+
+.texto_terciario{
+    text-align: start;
+    margin: 0 30% 0 0 ;
+    color: var(--texto-terciario);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.botao-terciario {
+    margin: 0 80% 0 0;
+    padding: 1em 1em;
+
+
+}
+
+.imagem_terciaria{
+    width: 65%;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 0 10%;
+
+}
+
+                
+            .quaternario{
+                align-items: center;
+                margin: 0 10em;
+
+            }
+
+            .imagem_4{
+                width: 80%;
+                background-size: contain;
+                align-items: center;
+                text-align: center;
+
+            }
+
+            .div_4{
+                align-items: center
+
+            }
+
+            .texto_4{
+                        text-align: start;
+                        color: var(--texto-principal);
+                        font-weight: 700;
+                        font-size: 3rem;
+                        margin-bottom: 0.1em;
+
+            }
+
+            .paragrafo_4{
+                        text-align: start;
+                        color: var(--texto-terciario);
+                        font-weight: 400;
+                        font-size: 1rem;
+
+            }
+
+.plataformas{
+    grid-template-columns: none;
+    align-items: center;
+    
+}
+.grade{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.texto_5{
+    text-align: start;
+    color: var(--texto-principal);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.1em;    
+
+}
+
+.div_5{
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content: space-between;
+margin: 0%;
+
+}
+
+.plataforma1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem;
+
+}
+
+.imagem_tv{
+    width: 120%;
+
+}
+
+.paragrafo_tv{
+    text-align: center;
+    color: var(--texto-principal);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.plataforma2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.imagem_pc{
+    width: 120%;
+}
+
+.paragrafo_pc{
+    text-align: center;
+    color: var(--texto-principal);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.plataforma3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem_cel{
+    width: 120%;
+}
+
+.paragrafo_cel{
+    text-align: center;
+    color: var(--texto-principal);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+        .rodape{
+            text-align: center;
+
+
+        }
+
+        .lista_rodape{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            margin: 2em 10%;
+
+
+        }
+
+        .lista__link{
+            text-decoration: none;
+            color: var(--texto-principal);
+            font-weight: 400;
+            font-size: 1rem;
+
+
+        }
+
+        .texto_rodape{
+            margin: 2em 13%;
+            text-align: center;
+            color: var(--texto-terciario);
+            font-size: 0.87rem;
+        }
+
+        .lista__link a:hover {
+            color: var(--botoes);
+
+        }
+
+        .link-botao1:hover {
+            background-color: var(--cor-de-ativo);
+            color: var(--cor-de-fundo);
+
+        }
+
+        
