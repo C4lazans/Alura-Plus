@@ -318,46 +318,36 @@ margin: 0%;
         }
 
 
-@media (max-width: 500px) {
+        @media (max-width: 768px) {
             
-    .link-botao1 {
-        text-align: center;
-        background-color: var(--botoes);
-        border-radius: 8px;
-        border-color: var(--botoes);
-        font-size: 1rem;
-        padding: 1rem 4rem;
-        text-decoration: none;
-        color: var(--texto-principal);
-        display: flex;
-        margin-bottom: 1em;
-        }
-
-    .container {
-        grid-template-columns: 100%
-        }
-
-    .div_5{
-            text-align: center;
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: space-between;
-            margin: 0%;
+            .body{
+                text-align: center;
+                margin: 0;
+            }
+            .conteudo{ 
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            .container {
+                display: block;
+                margin: 5%;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
             
             }
-    
-    .imagem_pc{
-        width: auto;
-        }
-    
-    .imagem_cel{
-        width: auto;
-        }
-    
-    .imagem_tv{
-        width: auto;
-        
-        }
+            .background {
+                background-image: none;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+            .imagem{
+                width: 50vh;
+            }
+
         }
         
