@@ -360,5 +360,8 @@ margin: 0%;
                 align-items: center;
 
             }
+
+            .lista_rodape{
+                display: block;
         }
         
