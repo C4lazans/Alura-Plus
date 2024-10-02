@@ -364,5 +364,6 @@ margin: 0%;
             .lista_rodape{
                 display: flex;
                 flex-direction: column;
+                pading: 0.5em 0;
         }
         
