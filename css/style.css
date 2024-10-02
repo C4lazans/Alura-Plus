@@ -329,4 +329,12 @@ margin: 0%;
 
         }
 
+
+@media (max-width: 500px) {
+            
+            .body {
+                width: 90%;
+            }
+
+        }
         
