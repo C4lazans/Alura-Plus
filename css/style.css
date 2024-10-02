@@ -338,6 +338,7 @@ margin: 0%;
         }
 
     .div_5{
+            text-align: center;
             display: flex;
             align-items: center;
             flex-direction: column;
