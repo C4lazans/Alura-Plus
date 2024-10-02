@@ -22,6 +22,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 1rem;
     font-weight: 400;
+    height: 100vh;
 }
         .background {
             background-image: url(./imagens/Background.png);
