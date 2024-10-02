@@ -345,5 +345,8 @@ margin: 0%;
         margin-bottom: 1em;
         }
 
+    .container {
+        grid-template-columns: 100%
+
         }
         
